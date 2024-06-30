@@ -1,0 +1,145 @@
+.footerContainer{
+    width: 100%;
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .whiteDiv{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #002541;
+            width: 100%;
+            
+            padding: 48px 58px ;
+            .upperHalf{
+                display: flex;
+                justify-content: space-between;
+                width: 90%;              
+                border-bottom: 1px solid #c2cad3;
+                padding-bottom: 32px;
+                .left{
+                    display: flex;
+                    flex: 1;
+                    flex-direction: column;
+                    gap: 20px;
+                    
+                    .logoContainer{
+                        display: flex;
+                        align-items: center;
+                        height: 80px;
+                        img{
+                            height: 80%;
+                        }
+
+                    }
+                    .socials{
+                        display: flex;
+                        align-items: center;
+                        gap: 24px;
+                        padding-bottom: 16px;
+                        a{
+                            display: flex;
+                            align-items: center;
+                            
+                            img{
+                                width: 70%;
+                            };
+                        }
+                    }
+                }
+                .right{
+                    display: flex;
+                    flex: 1;
+                    justify-content: end;
+                    gap: 20px;
+                    
+                }
+            }
+            .lowerHalf{
+                display: flex;
+                width: 90%;
+                padding-top: 32px;
+                gap: 5px;
+                color: #5C7189;
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .footerContainer{
+        width: 100%;
+        .footer{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .whiteDiv{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                color: #002541;
+                width: 100%;
+                
+                padding: 48px 58px ;
+                .upperHalf{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    width: 90%;              
+                    border-bottom: 1px solid #c2cad3;
+                    padding-bottom: 32px;
+                    gap: 20px;
+                    .left{
+                        display: flex;
+                        flex: 1;
+                        flex-direction: column;
+                        gap: 20px;
+                        
+                        .logoContainer{
+                            display: flex;
+                            
+                            justify-content: center;
+                            height: 80px;
+                            img{
+                                height: 60%;
+                            }
+    
+                        }
+                        .socials{
+                            display: flex;
+                            align-items: center;
+                            gap: 24px;
+                            padding-bottom: 16px;
+                            a{
+                                display: flex;
+                                align-items: center;
+                                
+                                img{
+                                    width: 80%;
+                                };
+                            }
+                        }
+                    }
+                    .right{
+                        display: flex;
+                        flex: 1;
+                        justify-content: center;
+                        gap: 20px;
+                        
+                    }
+                }
+                .lowerHalf{
+                    display: flex;
+                    justify-content: center;
+                    width: 90%;
+                    padding-top: 32px;
+                    gap: 5px;
+                    color: #5C7189;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
