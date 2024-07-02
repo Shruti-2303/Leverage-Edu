@@ -1,0 +1,39 @@
+.advContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    .advContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 80%;
+        height: 100%;
+        .advHeading{
+            font-size: 40px;
+            font-weight: 600;
+            color: #002147;
+            margin-bottom: 8px;
+            span{
+                color: #0487f3;
+            }
+        }
+        .advDesc{
+            font-size: 16px;
+            font-weight: 400;
+            color: #5c7189;
+            margin-bottom: 16px;
+
+        }
+        .cardContainer{
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+
+        }
+        
+    }
+    
+
+}
