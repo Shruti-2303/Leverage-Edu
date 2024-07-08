@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./advantage.module.scss";
-import Advcard from "./Advcard/Advcard";
+import AdvCard from "./AdvCard/AdvCard";
 import { advantageData } from "@/app/utils/data";
 const Advantage = () => {
   return (
@@ -15,7 +15,7 @@ const Advantage = () => {
         </div>
         <div className={styles.cardContainer}>
           {advantageData.map((item, index) => (
-            <Advcard key={index} item={item} />
+            <AdvCard key={index} item={item} />
           ))}
         </div>
       </div>

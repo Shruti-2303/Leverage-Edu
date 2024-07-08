@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "./advcard.module.scss";
-const Advcard = ({ item }) => {
+import styles from "./AdvCard.module.scss";
+const AdvCard = ({ item }) => {
   return (
     <div className={styles.cardContainer}>
       <div className={styles.imgContainer}>
@@ -13,4 +13,4 @@ const Advcard = ({ item }) => {
   );
 };
 
-export default Advcard;
+export default AdvCard;
